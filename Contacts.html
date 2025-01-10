@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+body {
+ background-image:url(https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+</style>
+</head>
+<body>
+<div class="conatiner">
+  <h1>CONTACT US</h1>
+  <form action="save.php" method="post">
+    <div class="form-group">
+     <input type="text" placeholder="Enter Name"> 
+    </div>
+    <div class="form-group">
+      <input type="email"  placeholder="Enter Email">
+    </div>
+    <div class="form-group">
+      <textarea rows="5" placeholder="Enter Your Message"></textarea>
+    </div>
+    <input type="button" value="SEND" id="btn">
+  </form>
+<style>
+  *{
+    margin: 0px;
+    padding: 0px 10px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-content: center;
+  }
+  .container{
+    width: 500px;
+    height: 550px; 
+    display: grid;
+    place-content: center;
+    background-color: red;
+    
+  }
+  h1{
+    color:white;
+    padding: 20px 20px;
+  }
+  .form-group{
+    width: 400px;
+    margin: 20px 0;
+  }
+  .form-group input{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border:none;
+  
+  }
+  .form-group textarea{
+    width: 350px ;
+    resize: none;
+    border-radius: 10px;
+    padding: 10px ;
+  }
+  #btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    
+  }
+  #btn:hover{
+    background-color:rgb(165, 163, 167);
+  }
+</style>
+</div>
